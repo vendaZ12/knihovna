@@ -3,7 +3,7 @@
 @section('content')
     <h1>Přidat autora</h1>
 
-    <form action="{{ route('admin.authors.store') }}" method="POST">
+    <form action="{{ route('authors.store') }}" method="POST">
         @csrf
         <div class="mb-3">
             <label for="name" class="form-label">Jméno autora</label>

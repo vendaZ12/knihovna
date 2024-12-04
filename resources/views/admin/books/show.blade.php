@@ -6,5 +6,5 @@
     <p><strong>ISBN:</strong> {{ $book->isbn }}</p>
     <p><strong>Dostupnost:</strong> {{ $book->available ? 'Dostupná' : 'Rezervovaná' }}</p>
 
-    <a href="{{ route('admin.books.index') }}" class="btn btn-secondary">Zpět na seznam knih</a>
+    <a href="{{ route('books.index') }}" class="btn btn-secondary">Zpět na seznam knih</a>
 @endsection

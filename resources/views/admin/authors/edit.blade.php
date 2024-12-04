@@ -3,7 +3,7 @@
 @section('content')
     <h1>Upravit autora</h1>
 
-    <form action="{{ route('admin.authors.update', $author->id) }}" method="POST">
+    <form action="{{ route('authors.update', $author->id) }}" method="POST">
         @csrf
         @method('PUT')
 
